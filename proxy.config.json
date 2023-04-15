@@ -1,0 +1,7 @@
+{
+  "/pokeApi/*": {
+    "target": "https://pokeapi.co/api/v2/pokemon",
+    "changeOrigin": true,
+    "pathRewrite": {"^/pokeApi" : ""}
+  }
+}

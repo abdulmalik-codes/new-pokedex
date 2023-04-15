@@ -1,0 +1,83 @@
+<div class="container">
+
+  <div class="pokedex">
+
+    <div class="top">
+      <div class="circle-container">
+        <div class="grey-circle">
+          <div class="black-circle">
+            <div class="blue-circle">
+              <div class="glare-circle1"></div>
+              <div class="glare-circle2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-circle maroon">
+          <div class="glare"></div>
+        </div>
+        <div class="small-circle gold">
+          <div class="glare"></div>
+        </div>
+        <div class="small-circle green">
+          <div class="glare"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cover">
+
+
+      <div class="line-container">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+
+      <div class="bottom">
+        <div class="door open-door" [class.close-door]="!doorOpen">
+
+          <div class="line--container">
+            <div class="line--2"></div>
+            <div class="line--3"></div>
+          </div>
+
+          <div class="handle-container">
+            <div class="handle" (click)="openDoor()"></div>
+          </div>
+          <div class="clip"></div>
+          <div class="back-of-door">
+            <div class="line-container">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <div class="line4"></div>
+
+            <img src="/assets/MicrosoftTeams-image.png" alt="">
+
+            <div class="close-button" (click)="openDoor()">
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="hinge">
+          <div class="white-line"></div>
+          <div class="black-line black-line1"></div>
+          <div class="black-line black-line2"></div>
+          <div class="black-line black-line3"></div>
+          <div class="black-line black-line4"></div>
+        </div>
+        <div class="screen-container">
+          <div class="gap"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
